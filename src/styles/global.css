@@ -1,8 +1,31 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #c0e0ff;
   font-family: sans-serif;
 }
 
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .menu {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark .nav-links a:hover,
+.dark .nav-links a:focus {
+  color: #0d0950;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.dark a {
+  color: #ff9776;
+
+}
 body {
   margin: 0 auto;
   width: 100%;
@@ -75,4 +98,6 @@ h1 {
   .menu {
     display: none;
   }
+  
+  
 }
